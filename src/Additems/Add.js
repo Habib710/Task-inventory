@@ -57,7 +57,7 @@ const AddNewItems = () => {
         }
         console.log(additems);
 
-        const url=`http://localhost:5000/items`;
+        const url=`https://task-inventory.herokuapp.com/items`;
         fetch(url,{
 
             method:'POST',

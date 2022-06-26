@@ -9,7 +9,7 @@ const Home = () => {
     const [items,setitems]=useState([]);
 
     useEffect(()=>{
-        fetch('http://localhost:5000/items')
+        fetch('https://task-inventory.herokuapp.com/items')
         .then(res=>res.json())
         .then(data=>setitems(data))
 
@@ -20,7 +20,7 @@ const Home = () => {
        let mychoose=e.target.value;
        console.log(mychoose);
 
-       fetch('http://localhost:5000/items')
+       fetch('https://task-inventory.herokuapp.com/items')
         .then(res=>res.json())
         .then(data=>{
             if(mychoose === 'all'){
@@ -51,7 +51,7 @@ const Home = () => {
           }).then((result) => {
             if (result.isConfirmed) {
 
-                const url=`http://localhost:5000/items/${id}`;
+                const url=`https://task-inventory.herokuapp.com/items/${id}`;
                 fetch(url,{
                     method:'DELETE'
                 })

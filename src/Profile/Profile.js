@@ -33,6 +33,7 @@ const Profile = () => {
             className="uptade-pro-input"
             type="displayName"
             value={displayName}
+            required
             placeholder="Update your name"
             onChange={(e) => setDisplayName(e.target.value)}
           />
@@ -42,6 +43,7 @@ const Profile = () => {
             className="uptade-pro-input"
             type="url"
             value={photoURL}
+            required
             placeholder="URL"
             onChange={(e) => setPhotoURL(e.target.value)}
           />

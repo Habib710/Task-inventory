@@ -13,7 +13,7 @@ const Update = () => {
   const updated = {name, price, quantity };
  
   useEffect(() => {
-    fetch(`http://localhost:5000/items/${id}`)
+    fetch(`https://task-inventory.herokuapp.com/items/${id}`)
       .then((res) => res.json())
       .then((data) => setitem(data))
   }, [id,Item])
@@ -39,7 +39,7 @@ const Update = () => {
   const onsubmit=event=>{
     event.preventDefault();
     const newupdate={updated}
-    fetch(`http://localhost:5000/items/${id}`,{
+    fetch(`https://task-inventory.herokuapp.com/items/${id}`,{
             method:'PUT',
             headers:{
                 'content-type':'application/json'
