@@ -1,0 +1,42 @@
+[
+    {
+      
+      "price": 5040,
+      "quantity": 50,
+      "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVfDVK_WGSw2wxaZtDoAaHmYPL8ZTkZt0aYQ&usqp=CAU",
+      "category": "low",
+      "name": "Alissa Hurley"
+    },
+    {
+      
+      "price": 5000,
+      "quantity": 25,
+      "pic": "https://images.unsplash.com/photo-1496150590317-f8d952453f93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGN5Y2xlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "category": "normal",
+      "name": "Jewel Dunlap"
+    },
+    {
+      
+      "price": 700,
+      "quantity": 150,
+      "pic": "https://images.unsplash.com/photo-1449426468159-d96dbf08f19f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bW90b3JiaWtlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "category": "normal",
+      "name": "Whitney Norman"
+    },
+    {
+      
+      "price": 5010,
+      "quantity": 750,
+      "pic": "https://images.unsplash.com/photo-1489824904134-891ab64532f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNhcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "category": "heigh",
+      "name": "Eva Andrews"
+    },
+    {
+      
+      "price": 6852,
+      "quantity": 10,
+      "pic": "https://images.unsplash.com/photo-1508357941501-0924cf312bbd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bW90b3JiaWtlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "category": "heigh",
+      "name": "Solis Black"
+    }
+  ]

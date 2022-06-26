@@ -1,0 +1,43 @@
+.customprofile-css{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(18, 18, 19, 0.2) 0px 7px 29px 0px;
+}
+.myplate{
+    box-shadow: rgba(122, 184, 235, 0.616) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    padding: 20px;
+    border-radius: 50px 0px 50px 0px;
+    
+
+}
+.uptade-pro-input{
+    width: 100%;
+    border-radius: 8px;
+    padding: 8px;
+    border: none;
+    box-shadow: rgba(31, 31, 230, 0.671) 0px 2px 5px -1px, rgba(0, 0, 0, 0.822) 0px 1px 3px -1px;
+}
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #ddd7ec 0%, #ebe98da8  51%, #bdafeb  100%);
+    
+    padding: 8px 10px;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(0, 0, 0);  
+    font-weight: 600;          
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+ 

@@ -1,0 +1,107 @@
+
+.banner-css{
+    min-height: 90vh;
+    padding: 0;
+    background:linear-gradient(rgba(19, 18, 18, 0.527),rgba(41, 38, 38, 0.651)), url('https://images.unsplash.com/photo-1645251301955-093e2299714a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGludmVudG9yeXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60');
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.css-banner-title{
+    font-size: 55px;
+}
+.menagediv{
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+ margin-bottom: 30px;
+    justify-items: center;
+    align-items: center;
+    box-shadow: rgba(117, 117, 235, 0.288) 0px 7px 29px 0px;
+    padding: 10px;
+}
+         
+.btn-delete {
+    background-image: linear-gradient(to right, #EB3349 0%, #3a1515  51%, #EB3349  100%);
+    margin: 10px;
+    padding: 5px 15px;
+    font-weight: 600;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px rgb(204, 50, 50);
+    border-radius: 10px;
+    
+  }
+
+  .btn-delete:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+          
+  .btn-update {
+    background-image: linear-gradient(to right, #52c234 0%, #061700  51%, #52c234  100%);
+    margin: 10px;
+    padding: 5px 10px;
+    border: none;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px rgb(104, 182, 15);
+    border-radius: 10px;
+    
+  }
+
+  .btn-update:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+           
+  .btn-add-css {
+    background-image: linear-gradient(to right, #4776E6 0%, #8E54E9  51%, #4776E6  100%);
+    margin: 10px;
+    padding: 8px 10px;
+    text-align: center;
+   border: none;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white; 
+    font-weight: 600;           
+    box-shadow: 0 0 20px rgb(112, 152, 226);
+    border-radius: 10px;
+    
+  }
+
+  .btn-add-css:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  .custom-sort-css{
+    border-radius: 10px;
+    margin-left: 15px;
+  
+
+  }
+  .custom-sort-css option{
+   
+  }
+  .footer{
+    min-height: 250px;
+    
+    background-color: black;
+  }
+ 
+
+  
